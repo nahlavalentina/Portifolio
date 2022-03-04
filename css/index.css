@@ -44,7 +44,7 @@ section {
     font-family: 'Dosis', sans-serif;
     color: var(--title);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-size: 30px;
     background-color: var(--secondary);
