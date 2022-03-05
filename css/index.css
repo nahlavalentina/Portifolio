@@ -81,16 +81,38 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 40%;
+    width: 45%;
     height: 100%;
     margin: 25px 0;
+}
+
+.education::before {
+    content: '';
+    background:url(../img/icons/graduation-cap.png);
+    background-size:cover;
+        position:absolute;
+    width:40px;
+    height:40px;
+    margin-left: -60px;
+    margin-right: 10px;
+}
+
+.work::before {
+    content: '';
+    background:url(../img/icons/work.png);
+    background-size:cover;
+        position:absolute;
+    width:40px;
+    height:40px;
+    margin-left: -60px;
+    margin-right: 10px;
 }
 
 .trabalhos {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 40%;
+    width: 45%;
     height: 100%;
     margin: 25px 0;
 }
@@ -135,6 +157,67 @@ section {
     justify-content: space-between;
 }
 
+.proj-icon::before {
+    content: '';
+    background:url(../img/icons/tools.png);
+    background-size:cover;
+        position:absolute;
+    width:40px;
+    height:40px;
+    margin-left: -60px;
+    margin-right: 10px;
+}
+
+.css::before {
+    content: '';
+    background:url(../img/icons/css-3.png);
+    background-size:cover;
+        position:absolute;
+    width:20px;
+    height:20px;
+    margin-left: -40px;
+}
+
+.html::before {
+    content: '';
+    background:url(../img/icons/html-5\ \(1\).png);
+    background-size:cover;
+        position:absolute;
+    width:20px;
+    height:20px;
+    margin-left: -40px;
+}
+
+.css::before {
+    content: '';
+    background:url(../img/icons/css-3.png);
+    background-size:cover;
+        position:absolute;
+    width:20px;
+    height:20px;
+    margin-left: -40px;
+}
+
+.git::before {
+    content: '';
+    background:url(../img/icons/github.png);
+    background-size:cover;
+        position:absolute;
+    width:20px;
+    height:20px;
+    margin-left: -40px;
+}
+
+.soft::before {
+    content: '';
+    background:url(../img/icons/logical-thinking.png);
+    background-size:cover;
+        position:absolute;
+    width:20px;
+    height:20px;
+    margin-left: -40px;
+}
+
 .contato {
     background: var(--primary);
     display: flex;
@@ -157,6 +240,36 @@ section {
 .imagem-contato {
     width: 350px;
     height: 370px;
+}
+
+.mail::before {
+    content: '';
+    background:url(../img/icons/email.png);
+    background-size:cover;
+        position:absolute;
+    width:20px;
+    height:20px;
+    margin-left: -40px;
+}
+
+.phone::before {
+    content: '';
+    background:url(../img/icons/phone-call.png);
+    background-size:cover;
+        position:absolute;
+    width:20px;
+    height:20px;
+    margin-left: -40px;
+}
+
+.linkedin::before {
+    content: '';
+    background:url(../img/icons/linkedin-logo.png);
+    background-size:cover;
+        position:absolute;
+    width:20px;
+    height:20px;
+    margin-left: -40px;
 }
 
 footer {
