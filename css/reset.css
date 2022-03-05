@@ -11,8 +11,8 @@ html, body {
 
 #root {
     --main: #511b75;
-    --secondary: #6e34ca;
-    --background: rgb(33, 16, 36);
+    --primary: rgb(46, 20, 51);
+    --secondary: #543f77;
     --text: #FB89BC;
     --title: #2FC2EE;
     --content:#7CB4F4;

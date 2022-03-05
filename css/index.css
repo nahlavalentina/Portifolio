@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    background-color: var(--background);
     width: 100%;
     height: 100%;
 }
@@ -19,7 +18,7 @@ header {
 }
 
 nav {
-    width: 40%;
+    width: 50%;
     margin-right: 30px;
     display: flex;
     justify-content: space-around;
@@ -50,7 +49,7 @@ section {
     justify-content: space-around;
     align-items: center;
     font-size: 30px;
-    background-color: var(--secondary);
+    background-color: var(--primary);
 }
 
 .nome-principal {
@@ -68,7 +67,7 @@ section {
 }
 
 .experiencias {
-    background: var(--main);
+    background: var(--secondary);
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -96,8 +95,48 @@ section {
     margin: 25px 0;
 }
 
+.habilidades {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 60px 50px;
+    color: var(--title);
+    font-family: 'Spartan', sans-serif;
+}
+
+.habi-title {
+    margin-left: 25px;
+}
+
+.habi-list {
+    width: 20%;
+    height: 150%;
+}
+
+.projetos {
+    background: var(--secondary);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    padding: 90px 60px;
+    color: var(--title);
+    font-family: 'Spartan', sans-serif;
+}
+
+.proj-items {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .contato {
-    background: var(--main);
+    background: var(--primary);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -118,4 +157,13 @@ section {
 .imagem-contato {
     width: 350px;
     height: 370px;
+}
+
+footer {
+    background-color: var(--main);
+    width: 100%;
+    padding: 10px;
+    font-family: 'Poiret One', cursive;
+    color: var(--title);
+    text-align: center;
 }
