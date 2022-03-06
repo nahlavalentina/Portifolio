@@ -13,7 +13,7 @@ header {
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    
+
 
 }
 
@@ -60,6 +60,10 @@ section {
     padding-top: 15px;
 }
 
+.nome2 {
+    transition: 0.3s;
+}
+
 .imagem-principal {
     width: 550px;
     height: 500px;
@@ -88,22 +92,22 @@ section {
 
 .education::before {
     content: '';
-    background:url(../img/icons/graduation-cap.png);
-    background-size:cover;
-        position:absolute;
-    width:40px;
-    height:40px;
+    background: url(../img/icons/graduation-cap.png);
+    background-size: cover;
+    position: absolute;
+    width: 40px;
+    height: 40px;
     margin-left: -60px;
     margin-right: 10px;
 }
 
 .work::before {
     content: '';
-    background:url(../img/icons/work.png);
-    background-size:cover;
-        position:absolute;
-    width:40px;
-    height:40px;
+    background: url(../img/icons/work.png);
+    background-size: cover;
+    position: absolute;
+    width: 40px;
+    height: 40px;
     margin-left: -60px;
     margin-right: 10px;
 }
@@ -159,62 +163,62 @@ section {
 
 .proj-icon::before {
     content: '';
-    background:url(../img/icons/tools.png);
-    background-size:cover;
-        position:absolute;
-    width:40px;
-    height:40px;
+    background: url(../img/icons/tools.png);
+    background-size: cover;
+    position: absolute;
+    width: 40px;
+    height: 40px;
     margin-left: -60px;
     margin-right: 10px;
 }
 
 .css::before {
     content: '';
-    background:url(../img/icons/css-3.png);
-    background-size:cover;
-        position:absolute;
-    width:20px;
-    height:20px;
+    background: url(../img/icons/css-3.png);
+    background-size: cover;
+    position: absolute;
+    width: 20px;
+    height: 20px;
     margin-left: -40px;
 }
 
 .html::before {
     content: '';
-    background:url(../img/icons/html-5\ \(1\).png);
-    background-size:cover;
-        position:absolute;
-    width:20px;
-    height:20px;
+    background: url(../img/icons/html-5\ \(1\).png);
+    background-size: cover;
+    position: absolute;
+    width: 20px;
+    height: 20px;
     margin-left: -40px;
 }
 
 .css::before {
     content: '';
-    background:url(../img/icons/css-3.png);
-    background-size:cover;
-        position:absolute;
-    width:20px;
-    height:20px;
+    background: url(../img/icons/css-3.png);
+    background-size: cover;
+    position: absolute;
+    width: 20px;
+    height: 20px;
     margin-left: -40px;
 }
 
 .git::before {
     content: '';
-    background:url(../img/icons/github.png);
-    background-size:cover;
-        position:absolute;
-    width:20px;
-    height:20px;
+    background: url(../img/icons/github.png);
+    background-size: cover;
+    position: absolute;
+    width: 20px;
+    height: 20px;
     margin-left: -40px;
 }
 
 .soft::before {
     content: '';
-    background:url(../img/icons/logical-thinking.png);
-    background-size:cover;
-        position:absolute;
-    width:20px;
-    height:20px;
+    background: url(../img/icons/logical-thinking.png);
+    background-size: cover;
+    position: absolute;
+    width: 20px;
+    height: 20px;
     margin-left: -40px;
 }
 
@@ -244,31 +248,31 @@ section {
 
 .mail::before {
     content: '';
-    background:url(../img/icons/email.png);
-    background-size:cover;
-        position:absolute;
-    width:20px;
-    height:20px;
+    background: url(../img/icons/email.png);
+    background-size: cover;
+    position: absolute;
+    width: 20px;
+    height: 20px;
     margin-left: -40px;
 }
 
 .phone::before {
     content: '';
-    background:url(../img/icons/phone-call.png);
-    background-size:cover;
-        position:absolute;
-    width:20px;
-    height:20px;
+    background: url(../img/icons/phone-call.png);
+    background-size: cover;
+    position: absolute;
+    width: 20px;
+    height: 20px;
     margin-left: -40px;
 }
 
 .linkedin::before {
     content: '';
-    background:url(../img/icons/linkedin-logo.png);
-    background-size:cover;
-        position:absolute;
-    width:20px;
-    height:20px;
+    background: url(../img/icons/linkedin-logo.png);
+    background-size: cover;
+    position: absolute;
+    width: 20px;
+    height: 20px;
     margin-left: -40px;
 }
 
@@ -279,4 +283,14 @@ footer {
     font-family: 'Poiret One', cursive;
     color: var(--title);
     text-align: center;
+}
+
+a:hover {
+    color: var(--link);
+    transition: 0.3s;
+}
+
+.nome2:hover {
+    font-size: 60px;
+    color: var(--content);
 }
