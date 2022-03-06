@@ -34,10 +34,7 @@
 }
 
 @media (max-width: 426px) {
-    body {
-        width: 530px;
-    }
-
+    
     header {
         flex-direction: column;
         height: 100%;
